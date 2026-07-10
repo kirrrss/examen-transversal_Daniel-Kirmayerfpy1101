@@ -52,10 +52,6 @@ def validar_cupos(cupos):
         return False
 
 
-# =====================================================================
-# 2. FUNCIONES DE LÓGICA DE NEGOCIO Y OPERACIONES
-# =====================================================================
-
 def leer_opcion():
     """Solicita, valida y retorna una opción entera del menú principal."""
     while True:
