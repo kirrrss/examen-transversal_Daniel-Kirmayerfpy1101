@@ -274,7 +274,7 @@ print("====================================")
             if todo_valido:
                 exito = agregar_plan(codigo, nombre, tipo, duracion, acceso_piscina, incluye_clases, horario, precio, cupos, planes, inscripciones)
                 if exito:
-                    print("Plan agregado")
+                    print(""El plan se registró correctamente.")
                 else:
                     print("El código ya existe")
 
