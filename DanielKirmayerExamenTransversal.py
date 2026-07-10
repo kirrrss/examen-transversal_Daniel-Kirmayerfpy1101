@@ -176,13 +176,14 @@ def main():
     }
 
     while True:
-        print("\n ***MENÚ PRINCIPAL ==")
+        print("\n ***MENÚ PRINCIPAL***")
         print("1. Cupos por tipo de plan")
         print("2. Búsqueda de planes por rango de precio")
         print("3. Actualizar precio de plan")
         print("4. Agregar plan")
         print("5. Eliminar plan")
         print("6. Salir")
+        print("¡Hasta luego!")
 
 
         opcion = leer_opcion()
