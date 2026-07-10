@@ -183,7 +183,8 @@ def main():
         print("4. Agregar plan")
         print("5. Eliminar plan")
         print("6. Salir")
-        print("¡Hasta luego!")
+        print("****")
+ 
 
 
         opcion = leer_opcion()
@@ -285,7 +286,7 @@ def main():
                 print("El código no existe")
 
         elif opcion == 6:
-            print("Programa finalizado.")
+            print("Programa finalizado,¡Hasta luego!")
             break
 
 if __name__ == "__main__":
